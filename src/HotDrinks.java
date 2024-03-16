@@ -1,8 +1,7 @@
 public class HotDrinks extends Product {
     private double temperature;
     public HotDrinks(String name, double cost, double temperature) {
-        this.cost = cost;
-        this.name = name;
+        super(name, cost);
         this.temperature = temperature;
 
     }
